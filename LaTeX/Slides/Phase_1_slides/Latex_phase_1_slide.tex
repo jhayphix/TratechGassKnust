@@ -1,0 +1,169 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+
+
+\title{Introduction to LaTeX}
+\subtitle{Document Preparation System - Phase One}
+\author{Tratech GASS KNUST}
+\date{\today}
+
+\begin{document}
+	% Insert Title
+	\maketitle
+	\tableofcontents
+	
+	% --------------------------------------------------------------
+	% Start of Introduction
+	\section{Introduction}
+	\begin{frame}{Overview}
+		\begin{itemize}
+			
+			\item What is LaTeX? (pronounced “LAY-tek” or “LAH-tek”) \par \pause
+			\small Latex is a powerful typesetting system for creating professional documents, including slides \pause \\ [10pt]
+			
+			\item What is Typesetting \par \pause
+			Typesetting is the process of arranging and formatting text and images for printing or digital display, ensuring a visually appealing and readable layout. \pause
+			
+			\item Why use LaTeX?
+			\begin{itemize}
+				\item LaTeX excels in typesetting complex mathematics, tables, and technical content for the physical sciences.
+				\item It provide efficient tool for document management
+				\item Known for its ability to handle complex formatting and equations.
+				\item LaTeX simplifies the production of complicated elements like table of contents, indexes, and lists of figures.
+			\end{itemize}
+			
+
+		\end{itemize}
+	\end{frame}	
+	% End of Introduction
+	
+	% Over view
+	\begin{frame}{Overview}
+		\section*{When to Use Latex}
+		
+		\begin{itemize}
+			\item Academic Documents
+			\item Slides and Presentations
+			\item Technical Writing
+			\item Collaborative Projects
+			\item Cross-Platform Sharing
+		\end{itemize}
+	\end{frame}
+	
+	
+	% Getting Started
+	\section{Getting Started}
+	
+	\begin{frame}{Installation}
+		\begin{itemize}
+			\item Download and install LaTeX distribution (e.g., \underline{MiKTeX}, TeX Live).
+			\item Choose a LaTeX editor (e.g., \underline{TexStudio}, TeXShop, TeXworks, Overleaf)
+		\end{itemize}
+	\end{frame}
+	% End of Getting Started
+	
+	% Basic Document Structure
+	\section{Basic Document Structure}
+
+	\begin{frame}{Document Class}
+		\begin{itemize}
+			\item \texttt{\textcolor{blue}{\textbackslash documentclass\{article\}}}: Common document class.
+			\item Other classes: \texttt{report}, \texttt{book}, \texttt{beamer}, etc.
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Special Symbols}
+		Most symbols on the keyboard have their usual meaning. However the characters \par
+		
+		 \texttt{ \textbackslash \{\} \$ \^ \_ \% \& \# \~ } \par
+		
+		are used for special purposes within LATEX
+	\end{frame}
+	
+	\begin{frame}{Document Structure}
+		\begin{itemize}
+			\item Preamble: \texttt{\textcolor{blue}{\textbackslash title}}, \texttt{\textcolor{blue}{\textbackslash author}}, \texttt{\textcolor{blue}{\textbackslash date}}.
+			\item Body: \texttt{\textcolor{blue}{\textbackslash begin\{document\}} ... \textcolor{blue}{\textbackslash end\{document\}}}.
+		\end{itemize}
+	\end{frame}
+	
+	% End of Basic Document Structure
+	
+	% Section command
+	\section{The Section Command}
+	\begin{frame}{The \textbackslash section Command }
+		The \texttt{\textcolor{blue}{\textbackslash section\{...\}}} command in LaTeX is used to define a new section in the document. \pause \par
+		
+		It creates a numbered or titled section heading, depending on the document class. \par
+		
+		Sections are typically hierarchical :
+		\begin{itemize}
+			\item \texttt{\textcolor{blue}{\textbackslash section\{...\}}}
+			\item \texttt{\textcolor{blue}{\textbackslash subsection\{...\}}}
+			\item \texttt{\textcolor{blue}{\textbackslash subsubsection\{...\}}}
+			\item \texttt{\textcolor{blue}{\textbackslash section*\{...\}}}
+		\end{itemize}
+		
+	\end{frame}
+	% End of section command
+	
+	% Formatting Text
+	\section{Formatting Text}
+	
+	\begin{frame}{Text Formatting}
+		\begin{itemize}
+			\item \texttt{\textcolor{blue}{\textbackslash textbf\{\}}}: Bold.
+			\item \texttt{\textcolor{blue}{\textbackslash textit\{\}}}: Italics.
+			\item \texttt{\textcolor{blue}{\textbackslash underline\{\}}}: Underline.
+		\end{itemize}
+	\end{frame}
+	% End of Formatting Text
+	
+	% Lists
+	\section{Lists}
+	
+	\begin{frame}{Lists}
+		\begin{itemize}
+			\item \texttt{\textcolor{blue}{\textbackslash begin\{itemize\}} ... \textcolor{blue}{\textbackslash end\{itemize\}}}: Bullet points.
+			
+			\item \texttt{\textcolor{blue}{\textbackslash begin\{enumerate\}} ... \textcolor{blue}{\textbackslash end\{enumerate\}}}: Numbered lists.
+		\end{itemize}
+	\end{frame}
+	% End of Lists
+	
+	%Table of content
+	\section{Adding table of content}
+	
+	\begin{frame}{Adding table of Content}
+		\begin{itemize}
+			\item \texttt{\textcolor{blue}{\textbackslash tableofcontents}} - For table of contents
+		\end{itemize}
+	\end{frame}
+	% End of Mathematics
+	
+	% Mathematics
+	 \section{Mathematics}
+	
+	 \begin{frame}{Math Mode - Adding math to latex}
+		 \begin{itemize}
+			 \item Inline math: \texttt{\textcolor{blue}{\$}...\textcolor{blue}{\$}}
+			
+			\item Display math: \texttt{\textcolor{blue}{\textbackslash[} ... \textcolor{blue}{\textbackslash]}}. 	
+		 \end{itemize}
+	 \end{frame}
+	% End of Mathematics
+	
+	% Concluction
+	\section{Conclusion}
+
+	\begin{frame}{Conclusion}
+		\begin{itemize}
+			\item Recap of key LaTeX concepts.
+			
+			\item Additional resources for learning LaTeX.
+		\end{itemize}
+	\end{frame}
+	% End of conclusion
+	
+\end{document}
