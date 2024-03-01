@@ -11,7 +11,12 @@
 		\titlepage
 	\end{frame}
 	
-	\begin{frame}{ Commands and Usage}
+	\begin{frame}
+		\tableofcontents
+	\end{frame}
+	
+	\section{Document structure Commands}
+	\begin{frame}{ Document Structure Commands}
 		\begin{itemize}
 			\item \texttt{\textcolor{blue}{\textbackslash documentclass\{...\}}} - To specify the overall layout of a document.
 			\item \texttt{\textcolor{blue}{\textbackslash title\{...\}}} - Sets the main title of the document.
@@ -24,15 +29,19 @@
 		
 	\end{frame}
 	
-	\begin{frame}{ Commands and Usage}
+	\section{Content Commands and Usage}
+	\begin{frame}{ Content Commands and Usag}
 		\begin{itemize}
 			\item \texttt{\textcolor{blue}{\%} - Indicate a comment}
 			\item \texttt{\textcolor{blue}{\textbackslash par} -  It is used to create line breaks, similar to pressing "Enter" in a word processor}
 			\item \texttt{\textcolor{blue}{\textbackslash noindent} - To suppress the indentation}
+			\item \texttt{\textcolor{blue}{\textbackslash hspace} - To give a space horizontally}
+			\item \texttt{\textcolor{blue}{\textbackslash vspace} - To give a space vertically}
 		\end{itemize}
 	\end{frame}
 
-	\begin{frame}{ Commands and Usage}
+	\section{Formatting Commands and Usage}
+	\begin{frame}{ Formatting Commands and Usage}
 		\begin{itemize}
 			\item \texttt{\textcolor{blue}{\textbackslash textbf\{...\}} - Used to make the enclosed text bold}
 			\item \texttt{\textcolor{blue}{\textbackslash textit\{...\}} - Used to make the enclosed text italic}
@@ -40,7 +49,8 @@
 		\end{itemize}
 	\end{frame}
 
-	\begin{frame}{ Commands and Usage}
+	\section{Section Commands and Usage}
+	\begin{frame}{Section Commands and Usage}
 		\begin{itemize}
 			\item \texttt{\textcolor{blue}{\textbackslash section\{...\}}} - To define a new section in the document
 			\item \texttt{\textcolor{blue}{\textbackslash subsection\{...\}}} - To define a new section under the main section
@@ -49,9 +59,9 @@
 		\end{itemize}
 		
 	\end{frame}
-	
-	\begin{frame}{Commands and Usage}
-		
+
+	\section{List Commands and Usage}
+	\begin{frame}{List Commands and Usage}
 		\begin{itemize}
 			\item \texttt{\textcolor{blue}{\textbackslash begin\{itemize\}}} - Starts a bulleted list environment.
 			\item \texttt{\textcolor{blue}{\textbackslash begin\{enumerate\}}} - Initiates a numbered list environment.
@@ -62,8 +72,9 @@
 		
 	\end{frame}
 
-	\begin{frame}{Commands and Usage}
-		
+
+	\section{Math Commands and Usage}
+	\begin{frame}{Math Commands and Usage}
 		\begin{itemize}
 			\item \texttt{\textcolor{blue}{\$ ... \$}} - For inserting mathematical expressions within a line a text \\ [10pt]
 			\item \texttt{\textcolor{blue}{\textbackslash[ ... \textbackslash]}} - For inserting mathematical expressions to appear as a centered equation on its own line

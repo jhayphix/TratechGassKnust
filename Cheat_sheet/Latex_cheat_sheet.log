@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2024.1.31)  6 FEB 2024 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2024.1.31)  1 MAR 2024 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,19 +854,20 @@ lish.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (Latex_cheat_sheet.nav) [1
 
-{C:/Users/macbookpro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/macbookpro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Latex_
+cheat_sheet.toc) [2
+
+]
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-25.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 25.
+30.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 30.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 25.
+(Font)              for symbol `textbackslash' on input line 30.
 
-[2
-
-] [3
+[3
 
 ] [4
 
@@ -874,13 +875,15 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 
 ] [6
 
+] [7
+
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-74.
+85.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[7
+[8
 
 ]
 \tf@nav=\write6
@@ -896,26 +899,32 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Latex_cheat_sheet.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package rerunfilecheck Warning: File `Latex_cheat_sheet.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Latex_cheat_sheet.out':
+(rerunfilecheck)             Before: 3412D2A3AD7FDA27544239FC29CD9BFD;912
+(rerunfilecheck)             After:  9BF2FEAEC29AD00AD20D3D097C389B27;1079.
  ) 
 Here is how much of TeX's memory you used:
- 21763 strings out of 478659
- 426265 string characters out of 2855762
- 683890 words of memory out of 3000000
- 39406 multiletter control sequences out of 15000+600000
+ 21831 strings out of 478659
+ 427801 string characters out of 2855762
+ 683895 words of memory out of 3000000
+ 39464 multiletter control sequences out of 15000+600000
  405965 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,446b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,15n,122p,446b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\macbookpro\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \tctt1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program
  Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmtt10.pfb>
-Output written on Latex_cheat_sheet.pdf (7 pages, 108227 bytes).
+Output written on Latex_cheat_sheet.pdf (8 pages, 119817 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

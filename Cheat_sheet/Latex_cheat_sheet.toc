@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Document structure Commands}{3}{0}{1}
+\beamer@sectionintoc {2}{Content Commands and Usage}{4}{0}{2}
+\beamer@sectionintoc {3}{Formatting Commands and Usage}{5}{0}{3}
+\beamer@sectionintoc {4}{Section Commands and Usage}{6}{0}{4}
+\beamer@sectionintoc {5}{List Commands and Usage}{7}{0}{5}
+\beamer@sectionintoc {6}{Math Commands and Usage}{8}{0}{6}
