@@ -47,7 +47,7 @@
 			\item \texttt{\textcolor{blue}{\textbackslash noindent} - To suppress the indentation}
 			\item \texttt{\textcolor{blue}{\textbackslash hspace} - To give a space horizontally}
 			\item \texttt{\textcolor{blue}{\textbackslash vspace} - To give a space vertically}
-			\texttt{\textcolor{blue}{\textbackslash end\{center\}}} - To center block of text, images or diagrams etc.
+			\item \texttt{\textcolor{blue}{\textbackslash centering}} - To center block of text, images or diagrams etc.
 		\end{itemize}
 	\end{frame}
 
@@ -102,7 +102,7 @@
 			\item \texttt{\textcolor{blue}{\textbackslash usepackage\{subfigure\}}} - Importing subfigures under a main figure
 			
 			\item \texttt{\textcolor{blue}{\textbackslash begin\{figure\}}} ... \texttt{\textcolor{blue}{\textbackslash end\{figure\}}} - To Insert images, diagrams or illustrations
-			\item \texttt{\textcolor{blue}{\textbackslash begin\{center\}}} ... \texttt{\textcolor{blue}{\textbackslash end\{center\}}} - To center images, diagrams, illustrations or even block of text
+			\item \texttt{\textcolor{blue}{\textbackslash centering}} - To center images, diagrams, illustrations or even block of text
 			
 			\item \texttt{\textcolor{blue}{\textbackslash includegraphics\{image.jpg\}}} - To include external files eg. images
 			\item \texttt{\textcolor{blue}{\textbackslash caption\{Eg. This is an image\}}} - To indicate a caption
@@ -129,10 +129,9 @@
 
 	\begin{frame}{Inserting image example}
 		\begin{figure}[!t]
-			\begin{center}
+			\centering
 				\subfigure[Mass Passport]{\includegraphics[height=100pt, width=100pt]{images/fliers/passport.jpg}} \hspace{5pt}
 				\subfigure[Event Calendar]{\includegraphics[height=100pt, width=100pt]{images/fliers/persco_event.jpg}}
-			\end{center}
 			
 			\caption{Fliers}
 		\end{figure}
