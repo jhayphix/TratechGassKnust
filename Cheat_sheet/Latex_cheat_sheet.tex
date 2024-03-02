@@ -1,11 +1,21 @@
 \documentclass{beamer}
 \usecolortheme{default}
 \usetheme{Madrid}
+
+\usepackage{graphicx}
+\usepackage{subfigure}
+
+% Preamble
 \title{LaTeX Cheat Sheet}
 \author{Tratech GASS KNUST}
 \date{\today}
 
+
+% Body
 \begin{document}
+	% Variables
+	\newcommand{\imgHeight}{100pt}
+	\newcommand{\imgWidth}{100pt}
 	
 	\begin{frame}
 		\titlepage
@@ -115,6 +125,24 @@
 			\item \texttt{\textcolor{blue}{\textbackslash subfigure[This is a subcaption]\{\textbackslash includegraphics\{image.jpg\}\}}} - To add a sub caption to a figure
 			
 		\end{itemize}
+	\end{frame}
+
+	\begin{frame}{Inserting image example}
+		\begin{figure}[!t]
+			\begin{center}
+				\subfigure[Mass Passport]{\includegraphics[height=100pt, width=100pt]{images/fliers/passport.jpg}} \hspace{5pt}
+				\subfigure[Event Calendar]{\includegraphics[height=100pt, width=100pt]{images/fliers/persco_event.jpg}}
+			\end{center}
+			
+			\caption{Fliers}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{LaTeX Code for inserting image}
+		\begin{figure}
+			\includegraphics[width=0.9\textwidth, height=0.6\textheight]{images/code/fliers_code.png}
+			
+			\caption{Code for inserting image, figure 1}
+		\end{figure}
 	\end{frame}
 	
 	
