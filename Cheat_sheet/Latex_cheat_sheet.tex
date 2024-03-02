@@ -37,6 +37,7 @@
 			\item \texttt{\textcolor{blue}{\textbackslash noindent} - To suppress the indentation}
 			\item \texttt{\textcolor{blue}{\textbackslash hspace} - To give a space horizontally}
 			\item \texttt{\textcolor{blue}{\textbackslash vspace} - To give a space vertically}
+			\texttt{\textcolor{blue}{\textbackslash end\{center\}}} - To center block of text, images or diagrams etc.
 		\end{itemize}
 	\end{frame}
 
@@ -83,6 +84,39 @@
 		\end{itemize}
 		
 	\end{frame}
+
+	\section{Images}
+	\begin{frame}{Figures, Images Commands and Usage}
+		\begin{itemize}
+			\item \texttt{\textcolor{blue}{\textbackslash usepackage\{graphicx\}}} - Importing the graphic\textcolor{blue}{x} package
+			\item \texttt{\textcolor{blue}{\textbackslash usepackage\{subfigure\}}} - Importing subfigures under a main figure
+			
+			\item \texttt{\textcolor{blue}{\textbackslash begin\{figure\}}} ... \texttt{\textcolor{blue}{\textbackslash end\{figure\}}} - To Insert images, diagrams or illustrations
+			\item \texttt{\textcolor{blue}{\textbackslash begin\{center\}}} ... \texttt{\textcolor{blue}{\textbackslash end\{center\}}} - To center images, diagrams, illustrations or even block of text
+			
+			\item \texttt{\textcolor{blue}{\textbackslash includegraphics\{image.jpg\}}} - To include external files eg. images
+			\item \texttt{\textcolor{blue}{\textbackslash caption\{Eg. This is an image\}}} - To indicate a caption
+			
+			
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{Formatting the image}
+		\begin{itemize}
+			\item \texttt{\textcolor{blue}{\textbackslash includegraphics[height=200pt, width=100pt]\{image.jpg\}}} - Including a figure and specifying the height and width
+			
+			\item \texttt{\textcolor{blue}{\textbackslash begin\{figure\}[!t]}} ... \texttt{\textcolor{blue}{\textbackslash end\{figure\}}} - Place the image at the top of the page
+			
+			\item \texttt{\textcolor{blue}{\textbackslash begin\{figure\}[!b]}} ... \texttt{\textcolor{blue}{\textbackslash end\{figure\}}} - Place the image at the bottom of the page
+			
+			\item \texttt{\textcolor{blue}{\textbackslash begin\{figure\}[!here]}} ... \texttt{\textcolor{blue}{\textbackslash end\{figure\}}} - Place the image at the exact place of the editor \textcolor{blue}{( h means here)}
+			
+			\item \texttt{\textcolor{blue}{\textbackslash subfigure\{\textbackslash includegraphics\{image.jpg\}\}}} - To add a subimage or a subfigure
+			
+			\item \texttt{\textcolor{blue}{\textbackslash subfigure[This is a subcaption]\{\textbackslash includegraphics\{image.jpg\}\}}} - To add a sub caption to a figure
+			
+		\end{itemize}
+	\end{frame}
+	
 	
 	% Add more frames for additional commands...
 	

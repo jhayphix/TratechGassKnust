@@ -4,3 +4,4 @@
 \beamer@sectionintoc {4}{Section Commands and Usage}{6}{0}{4}
 \beamer@sectionintoc {5}{List Commands and Usage}{7}{0}{5}
 \beamer@sectionintoc {6}{Math Commands and Usage}{8}{0}{6}
+\beamer@sectionintoc {7}{Images}{9}{0}{7}

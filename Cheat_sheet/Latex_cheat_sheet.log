@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2024.1.31)  1 MAR 2024 23:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2024.1.31)  1 MAR 2024 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,11 +879,15 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-85.
+86.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 [8
+
+] [9
+
+] [10
 
 ]
 \tf@nav=\write6
@@ -899,20 +903,14 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `Latex_cheat_sheet.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Latex_cheat_sheet.out':
-(rerunfilecheck)             Before: 3412D2A3AD7FDA27544239FC29CD9BFD;912
-(rerunfilecheck)             After:  9BF2FEAEC29AD00AD20D3D097C389B27;1079.
+Package rerunfilecheck Info: File `Latex_cheat_sheet.out' has not changed.
+(rerunfilecheck)             Checksum: B1574CCE251E5C90A3BAFFA0240EDB9A;1152.
  ) 
 Here is how much of TeX's memory you used:
- 21831 strings out of 478659
- 427801 string characters out of 2855762
- 683895 words of memory out of 3000000
- 39464 multiletter control sequences out of 15000+600000
+ 21848 strings out of 478659
+ 427951 string characters out of 2855762
+ 685898 words of memory out of 3000000
+ 39476 multiletter control sequences out of 15000+600000
  405965 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,446b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -922,9 +920,9 @@ Here is how much of TeX's memory you used:
  Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmtt10.pfb>
-Output written on Latex_cheat_sheet.pdf (8 pages, 119817 bytes).
+Output written on Latex_cheat_sheet.pdf (10 pages, 134785 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
